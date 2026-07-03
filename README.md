@@ -1,2 +1,5 @@
 # IOIOGoLibCore
-A native Go library for the IOIO controller, optimized for low power consumption and high performance on embedded systems like the Raspberry Pi Zero W. It abstracts the low-level binary protocol (USB/Bluetooth) through a clean, idiomatic, and synchronous API, following Go's standard library best practices and without dependencies.
+---
+IOIOGoLibCore is a lightweight, high-performance native Go library designed to communicate with the IOIO controller board. It abstracts the IOIO's low-level binary protocol over serial (USB) and wireless (Bluetooth SPP/RFCOMM) connections, providing developers with an idiomatic, synchronous, and predictable API.
+
+By compiling directly to machine code and eliminating the overhead and micro-pauses of a traditional virtual machine, IOIOGoLibCore is optimized to run in resource-constrained environments, such as the Raspberry Pi Zero W.
